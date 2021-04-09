@@ -52,5 +52,9 @@ geckodriver.log
 .history
 .vscode
 
+#jupyter
+.cache
+.local
+
 # copied changelog
 docs/source/changelog.md
