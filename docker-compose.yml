@@ -5,6 +5,6 @@ services:
     datascience-notebook:
         build: .
         volumes:
-            - d:\git_w\visaocomputacional\notebooks:/home/jovyan
+            - d:\git_w\visaocomputacional\notebooks:/home/jovyan #Path completo do git.
         ports:
             - 8888:8888

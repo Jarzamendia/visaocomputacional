@@ -55,6 +55,7 @@ geckodriver.log
 #jupyter
 .cache
 .local
+.ipython
 
 # copied changelog
 docs/source/changelog.md
