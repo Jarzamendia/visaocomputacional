@@ -1,11 +1,3 @@
 # visaocomputacional
 
-import numpy as np
-import cv2
-import matplotlib.pyplot as plt
-
-img = cv2.imread('messi.jpg',-1)
-
-%matplotlib inline
-plt.imshow(img)
-plt.title('My images')
+Este repositório servirá de base consultiva para nosso estudo em Processamento Digital de Sinais, com ênfase em Visão Computacional. Usaremos o Jupyter Notebook como IDE para testar bibliotecas, algoritmos e códigos diversos em Python.

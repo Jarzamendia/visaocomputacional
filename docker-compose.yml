@@ -2,9 +2,10 @@ version: "3"
 
 services:
 
-    datascience-notebook:
+    notebook:
+
         build: .
         volumes:
-            - d:\git_w\visaocomputacional\notebooks:/home/jovyan #Path completo do git.
+            - ./notebooks:/home/jovyan # Montaremos a pasta notebooks deste repositorio no container do Jupyter.
         ports:
             - 8888:8888
