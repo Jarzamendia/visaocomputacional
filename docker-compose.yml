@@ -1,11 +1,9 @@
 version: "3"
 
 services:
-
     notebook:
-
         build: .
         volumes:
-            - ./notebooks:/home/jovyan # Montaremos a pasta notebooks deste repositorio no container do Jupyter.
+            - ./notebooks:/home/jovyan
         ports:
             - 8888:8888
